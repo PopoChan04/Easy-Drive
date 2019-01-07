@@ -2,6 +2,7 @@ body {
 	margin: 0;
 }
 
+
 .navBar {
 	height: 70px;
 	width: 100vw;
@@ -35,10 +36,8 @@ body {
 	box-shadow: inset 0px 0px 9px rgba(0, 0, 0, 0.2);
     	transition: all .2s ease-in;
 	text-decoration: none;
-<<<<<<< HEAD
 }
+
 .logo {
 	background-image: URL(img/logo.png);
-=======
->>>>>>> parent of e3fabbb... Added Logo
 }
