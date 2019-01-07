@@ -2,6 +2,7 @@ body {
 	margin: 0;
 }
 
+
 .navBar {
 	height: 70px;
 	width: 100vw;
@@ -43,4 +44,7 @@ body {
 	width: 200px;
 	left: 45%;
 	position: fixed;
+
+.bg {
+	background-image: URL(img/logo.png);
 }
