@@ -50,3 +50,12 @@ body{
 .bg {
 	background-image: URL(img/logo.png);
 }
+
+.ft {
+	height: 69px;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	position: fixed;
+	
+}
