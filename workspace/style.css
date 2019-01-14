@@ -52,6 +52,7 @@ body{
 }
 
 .calc-bg {
+	display: block;
 	background-color: #BCF5FF;
 	width: 70%;
 	height: 85%;
@@ -74,4 +75,8 @@ div .infoBox {
 	position: bottom;
 	z-index: 1;
 	background-color: white;
+}
+
+button {
+	margin-top: 400px;
 }
