@@ -58,4 +58,11 @@ body{
 	top: 10%;
 	left: 15%;
 
+.ft {
+	height: 69px;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	position: fixed;
+	
 }
