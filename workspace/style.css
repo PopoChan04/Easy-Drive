@@ -1,4 +1,3 @@
-
 body{
 	background-color: #786DC3;
 	margin: 0;
@@ -46,6 +45,7 @@ body{
 	width: 200px;
 	left: 45%;
 	position: fixed;
+}
 
 .bg {
 	background-image: URL(img/logo.png);
@@ -57,20 +57,39 @@ body{
 	height: 85%;
 	top: 10%;
 	left: 15%;
+}
 
-div .infoBox {
-	width: 65vw;
-	height: 40vw;
-	margin-left: 17.5vw;
-	margin-top: 30vw;
+.infoBox {
+	width: 65%;
+	height: 80%;
+	min-width: 300px;
+	min-height: 10em;
+	margin-left: 17.5%;
+	margin-top: 12%;
 	position: absolute;
-	background-color: white;
+	background-color: rgb(242, 247, 68);
+	z-index: 1;
+	border-radius: 2em;
+	box-shadow: 0px 0px 10px;
+}
+.infoBox p {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
 }
 
 .ft {
-	height: 69px;
+	height: 4%;
 	width: 100vw;
-	position: bottom;
-	z-index: 1;
-	background-color: white;
+	position: fixed;
+	z-index: 2;
+	background-color: rgba(205, 245, 255, 0.8);
+	text-align: center;
+	opacity: 0.5;
+	top: 96%;
+	left: 0;
+}
+.ft p {
+	margin-top: 0.3%;
+	font-family: 'Roboto', sans-serif;
 }
