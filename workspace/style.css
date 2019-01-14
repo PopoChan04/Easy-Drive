@@ -51,6 +51,13 @@ body{
 	background-image: URL(img/logo.png);
 }
 
+.calc-bg {
+	background-color: #BCF5FF;
+	width: 70%;
+	height: 85%;
+	top: 10%;
+	left: 15%;
+
 .ft {
 	height: 69px;
 	width: 100vw;
