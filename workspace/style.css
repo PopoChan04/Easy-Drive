@@ -58,6 +58,15 @@ body{
 	top: 10%;
 	left: 15%;
 
+div .infoBox {
+	width: 65vw;
+	height: 40vw;
+	margin-left: 17.5vw;
+	margin-top: 30vw;
+	position: absolute;
+	background-color: white;
+}
+
 .ft {
 	height: 69px;
 	width: 100vw;
