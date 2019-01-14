@@ -51,11 +51,17 @@ body{
 	background-image: URL(img/logo.png);
 }
 
+.calc-bg {
+	background-color: #BCF5FF;
+	width: 70%;
+	height: 85%;
+	top: 10%;
+	left: 15%;
+
 .ft {
 	height: 69px;
 	width: 100vw;
-	top: 0;
-	left: 0;
-	position: fixed;
-	
+	position: bottom;
+	z-index: 1;
+	background-color: white;
 }
