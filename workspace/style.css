@@ -54,8 +54,7 @@ body{
 .ft {
 	height: 69px;
 	width: 100vw;
-	top: 0;
-	left: 0;
-	position: fixed;
-	
+	position: bottom;
+	z-index: 1;
+	background-color: white;
 }
