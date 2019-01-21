@@ -122,8 +122,23 @@ button {
     background-color: #F2F744;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
 }
 .camaro img{
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.harleydavidson{
+	height: 600px;
+    width: 400px;
+    border-color: #89BC3B;
+    background-color: #89BC3B;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.harleydavidson img{
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
