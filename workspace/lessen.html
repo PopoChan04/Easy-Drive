@@ -19,15 +19,78 @@
 			<img src="Img/EasyDrive.png" alt="logo">
 		</div>
     </nav>
-    <div class="calc-bg">
-		<button onclick="calc()">test</button>
-		<h1>Voertuig:</h1>
-		<select name="voertuigen">
-			<option value="kiesVoertuig">Kies Voertuig...</option>
-			<option value="auto">Auto</option>
-			<option value="motor">Motor</option>
-			<option value="vrachtwagen">Vrachtwagen</option>
-		</select>
-    </div>
+    <form>
+        <div class="flex-container">
+            <div class="flex">
+                <input type="checkbox" id="checkboxAutoTheorie"> Autotheoriepakket
+                <input type="checkbox"  id="checkboxAutoLos"> AutotheorieLos
+				<div class="flex-container-6">
+					<!--vrachtwagen card-->
+					<div class="flex-card">
+						<div class="content">
+							
+							<div class="plan">
+								<h1 class="title">Vrachtwagen</h1>
+								<h2 class="price"><span class="euro">€</span>60<span class=autoles>/per les</span></h2>
+								<input type="checkbox" value="#" id="checkboxVrachtTheorie">TheoriePakket
+									<input type="checkbox" value="#" id="checkboxVrachtLos"> Theorielos
+								<ul>
+									<li class="per-month"><span> </span>5% korting bij 10 lessen , 9% korting bij 20 lessen, 15% korting bij 50 lessen</li>
+									<li class="shares last-item"><span>1x </span>Theorie los kost 90 euro</li>
+									<li class="shares last-item"><span>2x </span>Theorie + examens kosten 120 euro</li>
+									<input type="number" class="autonummers" name="qty" id="qty3"  placeholder="Typ hier uw aantal pakketen">
+									<button class="action-btn" onclick="vrachtwagenPakket()">Toevoegen</button>
+								</ul>
+							   
+							</div>
+						</div>
+						<input type="number" disabled="true" name="total" id="totalVrachtwagen" />
+
+					</div>
+
+					<!--Auto Card-->
+					<div class="flex-card">
+						<div class="content">
+							<div class="plan">
+								<h1 class="title">Auto</h1>
+								<h2 class="price"><span class="euro">€</span>50<span class=autoles>/per les</span></h2>
+								<input type="checkbox" value="#" id="checkboxAutoTheorie">TheoriePakket
+									<input type="checkbox" value="#" id="checkboxAutoLos"> Theorielos
+								<ul>
+										<li class="per-month"><span> </span>5% korting bij 10 lessen , 9% korting bij 20 lessen, 15% korting bij 50 lessen</li>
+										<li class="shares last-item"><span>1x </span>Theorie los kost 90 euro</li>
+										<li class="shares last-item"><span>2x </span>Theorie + examens kosten 120 euro</li>
+									<input type="" class="autonummers" name="qty" id="qty2"  placeholder="Typ hier uw aantal pakketen">
+									<button class="action-btn" onclick="autoPakket()">Toevoegen</button>
+								</ul>
+							  
+							</div>
+						</div>
+						<input type="number" disabled="true" name="total" id="total" />
+					</div>
+					<div class="flex-card">
+						<div class="content">
+							<div class="plan">
+								<h1 class="title">Motor</h1>
+								<h2 class="price"><span class="euro">€</span>40<span class="autoles">/per les</span></h2>
+								<input type="checkbox" value="#" id="checkboxMotorTheorie">TheoriePakket
+									<input type="checkbox" value="#" id="checkboxMotorLos"> Theorielos
+								<ul>
+										<li class="per-month"><span> </span>5% korting bij 10 lessen , 9% korting bij 20 lessen, 15% korting bij 50 lessen</li>
+										<li class="shares last-item"><span>1x </span>Theorie los kost 90 euro</li>
+										<li class="shares last-item"><span>2x </span>Theorie + examens kosten 120 euro</li>
+									
+									<input type="" class="autonummers" name="qty" id="qty4" placeholder="Typ hier uw aantal pakketen">
+									<button class="action-btn" onclick="motorPakketten()">Toevoegen</button>
+								</ul>
+								
+							</div>
+						</div>
+						<input type="number" disabled="true" name="total" id="totalMotor"/>
+					</div>
+				</div>
+        </div>
+
+    </form>
 </body>
 </html>
