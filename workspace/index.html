@@ -8,129 +8,7 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="js/calc.js"></script>
 	<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Zet een style voor alle knoppen*/
-button {
-  background-color: #4CAF50;
-  color: Black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/*Extra stijlen voor de knop Annuleren */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/*Centreert het beeld en plaats de knop Sluiten */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Standaard verborgen */
-  position: fixed; /* Staat op zijn plek */
-  z-index: 1; /* Zit op top */
-  left: 0;
-  top: 0;
-  width: 100%; /* volledige breedte */
-  height: 100%; /* volledige hoogte  */
-  overflow: auto; /* Schakel scrollen in indien nodig*/
-  background-color: rgb(0,0,0); /* Fallback-kleur */
-  background-color: rgba(0,0,0,0.4); /* Zwarte/ kleurdekking */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: White;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /*Kan meer of minder zijn, afhankelijk van de schermgrootte */ 
-}
-
-/* De sluit knop (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Zoom animatie */
-.animate {
-  -webkit-animation: animatezoom 1.0s;
-  animation: animatezoom 1.0s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Verandert stijlen en annuleert knop op extra kleine schermen */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="bg">
@@ -146,6 +24,7 @@ span.psw {
 			<div class="logo">
 				<img src="Img/EasyDrive.png" alt="logo">
 			</div>
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="loginButton">Login</button>
 		</nav>
 	</header>
 	<main>
@@ -230,28 +109,6 @@ span.psw {
 			</div>
 		</div>
 	</main>
-<<<<<<< HEAD
-	<footer>
-		<div class="timeLine">
-			<div class="timeLine1">
-				
-			</div>
-			<div class="timeLine2">
-				
-			</div>
-			<div class="timeLine3">
-				
-			</div>
-		</div>
-	</footer>
-=======
-
-
-
-<h2>Medewerkers log hier in!</h2>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php">
@@ -293,11 +150,18 @@ window.onclick = function(event) {
 </script>
 
 	<footer>
-		<div class="ft">
-
+		<div class="timeLine">
+			<div class="timeLine1">
+				
+			</div>
+			<div class="timeLine2">
+				
+			</div>
+			<div class="timeLine3">
+				
+			</div>
 		</div>
 	</footer>
 
->>>>>>> 55516c9aef1a9dbdda6b97f7a7fee5b5a5e8b178
 </body>
 </html>
