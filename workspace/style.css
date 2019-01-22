@@ -241,7 +241,7 @@ body{
 	margin-left: 17.5%;
 	margin-top: 12%;
 	background-image: linear-gradient(rgb(247, 252, 73), orange 200%);
-	z-index: 1;
+	z-index: -1;
 	border-radius: 2em;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
