@@ -220,3 +220,10 @@ body{
 .HistoryBox img{
 	margin-top: 50px;
 }
+
+.timeLine1 {
+    position: relative;
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+}
