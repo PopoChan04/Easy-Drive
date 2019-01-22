@@ -3,6 +3,13 @@ body{
 	margin: 0;
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 200px;
+}
+
 
 .navBar {
 	height: 70px;
@@ -86,13 +93,6 @@ body{
 	position: bottom;
 	z-index: 1;
 	background-color: white;
-}
-
-button {
-	margin-top: 400px;
-	top: 0;
-	left: 0;
-	position: fixed;
 }
 
 .vehicles {
