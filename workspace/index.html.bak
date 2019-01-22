@@ -109,15 +109,7 @@
 	</main>
 	<footer>
 		<div class="timeLine">
-			<div class="timeLine1">
-				
-			</div>
-			<div class="timeLine2">
-				
-			</div>
-			<div class="timeLine3">
-				
-			</div>
+			Hello!
 		</div>
 	</footer>
 </body>
